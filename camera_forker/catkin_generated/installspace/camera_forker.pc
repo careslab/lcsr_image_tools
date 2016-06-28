@@ -1,0 +1,8 @@
+prefix=/home/careslab/dev/catkin_ws/install
+
+Name: camera_forker
+Description: Description of camera_forker
+Version: 0.1.0
+Cflags: -I/home/careslab/dev/catkin_ws/install/include
+Libs: -L/home/careslab/dev/catkin_ws/install/lib -lcamera_forker
+Requires: roscpp

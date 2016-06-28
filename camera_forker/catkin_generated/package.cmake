@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "camera_forker")
+set(camera_forker_MAINTAINER "Jonathan Bohren <jbo@jhu.edu>")
+set(camera_forker_DEPRECATED "")
+set(camera_forker_VERSION "0.1.0")
+set(camera_forker_BUILD_DEPENDS "rospy" "roscpp" "image_transport" "camera_info_manager" "camera_calibration_parsers" "tf" "resource_retriever" "terse_roscpp" "opencv2" "cv_bridge")
+set(camera_forker_RUN_DEPENDS "rospy" "roscpp" "image_transport" "camera_info_manager" "camera_calibration_parsers" "tf" "resource_retriever" "terse_roscpp" "opencv2" "cv_bridge")
+set(camera_forker_BUILDTOOL_DEPENDS "catkin")

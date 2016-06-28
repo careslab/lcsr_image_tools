@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "vid_pub")
+set(vid_pub_MAINTAINER "Jonathan Bohren <jbo@jhu.edu>")
+set(vid_pub_DEPRECATED "")
+set(vid_pub_VERSION "0.1.0")
+set(vid_pub_BUILD_DEPENDS "rospy" "roscpp" "dynamic_reconfigure" "image_transport" "camera_info_manager" "camera_calibration_parsers" "tf" "resource_retriever" "terse_roscpp" "opencv2" "cv_bridge")
+set(vid_pub_RUN_DEPENDS "rospy" "roscpp" "dynamic_reconfigure" "image_transport" "camera_info_manager" "camera_calibration_parsers" "tf" "resource_retriever" "terse_roscpp" "opencv2" "cv_bridge")
+set(vid_pub_BUILDTOOL_DEPENDS "catkin")
