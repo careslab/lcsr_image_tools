@@ -1,0 +1,8 @@
+prefix=/home/careslab/dev/catkin_ws/install
+
+Name: fakecam
+Description: Description of fakecam
+Version: 0.1.0
+Cflags: -I/home/careslab/dev/catkin_ws/install/include
+Libs: -L/home/careslab/dev/catkin_ws/install/lib 
+Requires: rospy roscpp image_transport camera_calibration_parsers tf resource_retriever terse_roscpp cv_bridge

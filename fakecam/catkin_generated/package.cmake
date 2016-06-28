@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "fakecam")
+set(fakecam_MAINTAINER "Jonathan Bohren <jbo@jhu.edu>")
+set(fakecam_DEPRECATED "")
+set(fakecam_VERSION "0.1.0")
+set(fakecam_BUILD_DEPENDS "rospy" "dynamic_reconfigure" "roscpp" "image_transport" "camera_calibration_parsers" "tf" "resource_retriever" "terse_roscpp" "opencv2" "cv_bridge")
+set(fakecam_RUN_DEPENDS "rospy" "dynamic_reconfigure" "roscpp" "image_transport" "camera_calibration_parsers" "tf" "resource_retriever" "terse_roscpp" "opencv2" "cv_bridge")
+set(fakecam_BUILDTOOL_DEPENDS "catkin")
